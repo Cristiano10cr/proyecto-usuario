@@ -1,0 +1,10 @@
+# Dependencias
+node_modules/
+npm-debug.log
+
+# Entorno
+.env
+
+# Carpeta build/ o dist/ generadas
+build/
+dist/
