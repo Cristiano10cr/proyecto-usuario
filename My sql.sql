@@ -18,3 +18,5 @@ INSERT INTO usuarios (nombre, email, telefono) VALUES
 ('Luis Rodríguez', 'luis.rodriguez@email.com', '3156789012');
 
 select * from usuarios;
+ALTER TABLE usuarios ADD COLUMN password VARCHAR(100) DEFAULT '12345';
+UPDATE usuarios SET email='admin@email.com', password='admin123' WHERE id=1;
